@@ -1,0 +1,30 @@
+body{
+  background:#0f0f0f;
+  color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+  font-family:Arial;
+}
+
+h1{
+  font-size:3rem;
+}
+
+span{
+    color: white;
+}
+
+#typewriter{
+  color:#00ff99;
+  border-right:3px solid #00ff99;
+  padding-right:5px;
+  animation: blink 0.7s infinite;
+}
+
+@keyframes blink{
+  50%{
+    border-color:transparent;
+  }
+}
